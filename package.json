@@ -1,0 +1,16 @@
+{
+  "name": "appsheet-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ocsen-hoc-code/appsheet-api.git",
+  "author": "minh.do <ocsen.hoc.code@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  }
+}
