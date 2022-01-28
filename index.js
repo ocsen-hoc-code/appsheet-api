@@ -9,6 +9,10 @@ const app = express();
 
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+    res.json({ msg: 'Welcome to NodeJS!' });
+});
+
 app.get('/api', (req, res) => {
     res.json({ msg: 'App Sheet API!' });
 });
